@@ -1,0 +1,241 @@
+# =====================================
+# .gitignore :)
+# =====================================
+# Este archivo evita que se suban archivos innecesarios al repositorio
+
+# ===== ENTORNOS VIRTUALES =====
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+.env/
+
+# ===== PYTHON =====
+# Bytecode compilado
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribuciones / builds
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ===== PYTEST / TESTING =====
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# ===== JUPYTER NOTEBOOKS =====
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# ===== LOGS =====
+*.log
+app.log
+logs/
+*.log.*
+
+# ===== BASES DE DATOS =====
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# ===== VARIABLES DE ENTORNO =====
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+
+# ===== IDEs / EDITORES =====
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# ===== SISTEMA OPERATIVO =====
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ===== ARCHIVOS TEMPORALES =====
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+temp/
+tmp/
+
+# ===== CERTIFICADOS / CLAVES =====
+*.pem
+*.key
+*.crt
+*.csr
+*.p12
+*.pfx
+
+# ===== DOCKER =====
+.dockerignore
+Dockerfile.local
+docker-compose.override.yml
+.docker/
+
+# ===== NODE.JS (si usas frontend) =====
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.yarn-integrity
+
+# ===== ARCHIVOS DE RESPALDO =====
+*.backup
+*.bak
+*.orig
+
+
+# ===== CONFIGURACIONES LOCALES =====
+config/local.py
+config/local.json
+settings/local.py
+local_settings.py
+
+# ===== REPORTES / DOCUMENTOS GENERADOS =====
+coverage_html_report/
+test-reports/
+*.pdf
+*.doc
+*.docx
+
+# ===== CACHE DE HERRAMIENTAS =====
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+
+# ===== ESPECÍFICOS DEL PROYECTO =====
+# Archivos de prueba temporales
+test_temp/
+temp_files/
+scratch/
+
+# Archivos de configuración personal
+.personal/
+personal_config/
+
+# ===== DEPLOYMENT =====
+deploy/
+deployment/
+.deployment
+.deploy/
+
+# ===== MONITOREO =====
+.monitoring/
+metrics/
+monitoring/
+
+# ===== OTROS =====
+# Archivos de sistema
+.DS_Store?
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Archivos de backup automático
+*~
+
+# Archivos de configuración específicos del usuario
+.user
+.personal
+user_config/
